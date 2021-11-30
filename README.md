@@ -1,7 +1,7 @@
 # Kontist - YNAB Connector
 
 This Node tool that allows you to send your last
-50 Kontist transactions to [YNAB](https://www.ynab.com)
+50 [Kontist](https://kontist.com) transactions to [YNAB](https://www.ynab.com)
 
 
 ## Prerequisites
