@@ -34,3 +34,9 @@ ynab_api_key='<YNAB Personal Access Token>'
 budget_id='<Budget ID>'
 account_id='<Account ID>'
 ```
+
+## Run the synchronization
+
+```
+npm run fullstart
+```
