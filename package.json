@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node .",
+    "hanseatic":"npm run build && node dist/parsehanseatic.js",
     "build": "tsc",
     "prestart": "npm run build",
     "fullstart": "npm run build | cp .env ./dist/.env | npm run start"
@@ -30,6 +31,7 @@
     "dotenv": "^10.0.0",
     "fs": "0.0.1-security",
     "kontist": "^0.36.11",
+    "node-html-parser": "^6.1.13",
     "ynab": "^1.25.0"
   },
   "devDependencies": {
